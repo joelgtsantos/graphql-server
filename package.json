@@ -1,0 +1,24 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "Setting up a GraphQL Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelgtsantos/graphql-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelgtsantos/graphql-server/issues"
+  },
+  "homepage": "https://github.com/joelgtsantos/graphql-server#readme",
+  "dependencies": {
+    "babel-preset-es2015": "6.3.13",
+    "babel-register": "6.3.13",
+    "express": "4.13.3"
+  }
+}
