@@ -19,6 +19,11 @@
   "dependencies": {
     "babel-preset-es2015": "6.3.13",
     "babel-register": "6.3.13",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "express-graphql": "0.5.3",
+    "graphql": "0.6.0",
+    "node-gyp": "^3.6.2",
+    "sqlite": "0.0.4",
+    "sqlite3": "3.1.3"
   }
 }
