@@ -109,8 +109,8 @@ export const UserType = new GraphQLObjectType({
             type: GraphQLInt
           },
         },
-        resolve(source, args) {
-          return loaders.getPostIdsForUser(source, args).then(({
+        resolve(source, args, context) {
+          return loaders.getPostIdsForUser(source, args, context).then(({
             rows,
             pageInfo
           }) => {
