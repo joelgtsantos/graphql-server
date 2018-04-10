@@ -5,8 +5,8 @@ Setting up from scratch a GraphQL Server. It runs in a HTTP port the GraphiQL co
 
 The data base schema is compose by three tables.
 
-
 users
+
 | Column    | Type          |
 | --------- |:-------------:|
 | id        | Integer       |
@@ -14,6 +14,7 @@ users
 | about     | Text          |
 
 usersFriends
+
 | Column    | Type          |
 | --------- |:-------------:|
 | user_id_a | int           |
@@ -21,6 +22,7 @@ usersFriends
 | level     | Text          |
 
 posts
+
 | Column    | Type          |
 | --------- |:-------------:|
 | id        | INTEGER       |
